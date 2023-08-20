@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- MY CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Slide Toggle</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="faq-title">Frequently Asked Questions (FAQ)</h1>
+      <div class="faq-items">
+        <div class="faq-items-header">
+          <p>What is HTML?</p>
+          <button class="btn" onclick="slideToggle(event)">+</button>
+        </div>
+        <p class="faq-items-detail">
+          HTML stands for Hyper Text Markup Language. HTML is the standard
+          markup language for creating Web pages. HTML describes the structure
+          of a Web page. HTML consists of a series of elements. HTML elements
+          tell the browser how to display the content.
+        </p>
+        <hr />
+      </div>
+      <div class="faq-items">
+        <div class="faq-items-header">
+          <p>What is CSS?</p>
+          <button class="btn" onclick="slideToggle(event)">+</button>
+        </div>
+        <p class="faq-items-detail">
+          CSS is the acronym of “Cascading Style Sheets”. CSS is a computer
+          language for laying out and structuring web pages (HTML or XML). This
+          language contains coding elements and is composed of these “cascading
+          style sheets” which are equally called CSS files (. css)
+        </p>
+        <hr />
+      </div>
+      <div class="faq-items">
+        <div class="faq-items-header">
+          <p>What is Javascript?</p>
+          <button class="btn" onclick="slideToggle(event)">+</button>
+        </div>
+        <p class="faq-items-detail">
+          JavaScript is a scripting language used to develop web pages.
+          Developed in Netscape, JS allows developers to create a dynamic and
+          interactive web page to interact with visitors and execute complex
+          actions. It also enables users to load content into a document without
+          reloading the entire page.
+        </p>
+        <hr />
+      </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="jQuery.js"></script>
+
+    <!-- MY JS -->
+    <script src="script.js"></script>
+  </body>
+</html>

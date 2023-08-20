@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #f8f9fa;
+}
+
+.container {
+  padding: 0 64px;
+  margin-top: 25vh;
+}
+
+.faq-title {
+  text-align: center;
+  color: #212529;
+  font-size: 24x;
+}
+
+.faq-items {
+  margin-bottom: 12px;
+}
+
+.faq-title {
+  margin-top: 12px;
+}
+
+.faq-items .faq-items-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.faq-items .faq-items-header p {
+  font-size: 18px;
+  color: #212529;
+}
+
+.faq-items .faq-items-header .btn {
+  cursor: pointer;
+  padding: 0 4px;
+  color: #6c757d;
+  background-color: transparent;
+  border: 2px solid #6c757d;
+  border-radius: 50%;
+}
+
+.faq-items .faq-items-header .btn:hover,
+.faq-items .faq-items-header .btn.active {
+  background-color: #212529;
+  border: 2px solid #212529;
+  color: #f8f9fa;
+}
+
+.faq-items .faq-items-header .btn.active {
+  padding: 0 6px;
+}
+
+.faq-items hr {
+  color: #6c757d;
+  margin-top: 8px;
+  opacity: 0.5;
+}
+
+.faq-items .faq-items-detail {
+  display: none;
+  font-size: 16px;
+  color: #6c757d;
+}
